@@ -1,25 +1,16 @@
 html,body{
 	padding: 0;
-	margin: 0 ;
+	margin: 0;
 }
 .wrap{
 	width: 1240px;
 	margin: 0 auto;
 	padding: 0;
 }
-header{
-	background-image: radial-gradient(circle, #3B3A53, #1B151F);
-	width: 100%;
-    padding: 0;
-    margin: 0 auto;
-    height: 500px;
-    float: left;
-    font-family: "Open Sans",sans-serif;
-}
 @font-face {
 font-family: 'FontAwesome';
-src: url('../fonts/fontawesome-webfont.eot?v=4.3.0');
-src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.3.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.3.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.3.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.3.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');
+src: url('fonts/fontawesome-webfont.eot?v=4.3.0');
+src: url('fonts/fontawesome-webfont.eot?#iefix&v=4.3.0') format('embedded-opentype'), url('fonts/fontawesome-webfont.woff2?v=4.3.0') format('woff2'), url('fonts/fontawesome-webfont.woff?v=4.3.0') format('woff'), url('fonts/fontawesome-webfont.ttf?v=4.3.0') format('truetype'), url('fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');
 font-weight: normal;
 font-style: normal;
 }
@@ -42,6 +33,15 @@ text-rendering: auto;
 /*******************/
 /*Start Header Top*/
 /*****************/
+header{
+	background-image: radial-gradient(circle, #3B3A53, #1B151F);
+	width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    height: 500px;
+    float: left;
+    font-family: "Open Sans",sans-serif;
+}
 header #top{
 	width: 100%;
 	float: left;
@@ -272,3 +272,76 @@ main #bottom figure figcaption p{
 	font-family: "Open Sans",sans-serif;
 }
 
+/*******************/
+/*Start Footer Top*/
+/*****************/
+footer #top{
+	width: 100%;
+	float: left;
+}
+footer #top figure{
+	width: 10%;
+	float: left;
+	margin: 0;
+  	position: relative;  	
+}
+footer #top figure a img{
+	width: 191px;
+	height: 190px;
+}
+footer #top figure .instagram{
+  position: absolute;  
+  top: 5px;
+  left: 10px;
+}
+footer #top figure div .fa fa-instagram{
+  margin: 5px 0 5px 0;
+}
+/**********************/
+/*Start Footer Bottom*/
+/********************/
+footer #bottom{
+	background-image: radial-gradient(circle, #3B3A53, #1B151F);
+	width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    height: 500px;
+    float: left;
+}
+footer #bottom article{
+	width: 30.1%;
+	float: left;
+	color: #fff;
+	padding: 20px;
+	text-align: left;
+}
+footer #bottom article h2{
+	font-size: 26px;
+	font-weight: 900;
+	text-transform: uppercase;
+	font-family: "Lato",sans-serif;
+	margin: 0;
+}
+footer #bottom article p{
+	font-family: "Open Sans",sans-serif;
+	font-size: 16px;
+}
+footer #bottom article ul{
+	padding: 0;
+}
+footer #bottom article nav ul li{
+	list-style: none;
+	font-weight: 900;
+}
+footer #bottom article a{
+	text-decoration: none;
+	color: #fff;
+}
+footer #bottom article ul li{
+	list-style: none;
+}
+footer #bottom article + article + article p{
+	margin: 0 0 20px 0;
+	font-style: italic;
+	color: #A3A2B8;
+}
