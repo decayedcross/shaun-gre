@@ -136,7 +136,11 @@ header #bottom article + article span{
 }
 header #bottom article + article a strong{
 	text-decoration: none;
-	color: #fff;	
+	color: #fff;
+	font-style: normal;	
+	font-size: 26px;
+	font-weight: 900;
+	text-transform: uppercase; 
 }
 header #bottom div{
 	width: 125px;
@@ -366,26 +370,29 @@ footer #bottom article + article + article ul li span{
 	text-decoration: none;
 }
 footer #bottom article #border{
-	display: inline-block;
-	border: 2px solid #FFF;
-	padding: 10px;
-	border-radius: 5px;
-	color: #A3A2B8;
-	font-size: 20px;
-	font-style: italic;
-	text-decoration: none;
+	width: 100%;
+	float: left;
 }
 footer #bottom article #border a{
+	font-family: "Open Sans",sans-serif;
 	color: #A3A2B8;
-	display: inline;
-	width: 10%;
-	text-align: center;
-	margin: 0 auto;
-	font-weight: 700;
-	font-size: 20px;
-	font-style: normal;
-}
-footer #bottom div article #border a strong{
+	display: inline-block;
+	border: 2px solid;
+	border-color: #fff;
+	padding: 10px;
+	border-radius: 5px;
+	font-size: 16px;
+	font-style: italic;
 	text-decoration: none;
-	color: #fff;	
+	text-align: center;	
+	
 }
+footer #bottom article #border a strong{
+	text-decoration: none;
+	color: #fff;
+	font-style: normal;	
+	font-size: 18px;
+	font-weight: 900;
+	text-transform: uppercase; 
+} 
+
