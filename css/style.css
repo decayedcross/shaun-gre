@@ -40,26 +40,30 @@ header{
     margin: 0 auto;
     height: 500px;
     float: left;
-    font-family: "Open Sans",sans-serif;
 }
 header #top{
 	width: 100%;
 	float: left;
 	text-align: right;
-	font-family: "Open Sans",sans-serif;
-	font-weight: 700;
+	padding: 10px 0 0 0;
+	font-size: 16px;
+    font-weight: 700;	
+    font-family: "Lato",sans-serif;
 }
 header #top a{
 	text-decoration: none;
 	color: #A3A2B8;	
+	padding: 0 20px 0 0;
+
 }
 /**********************/
 /*Start Header Bottom*/
 /********************/
 header #middle article{
-	width: 50%; 
+	width: 45%; 
 	float: left;
 	color: #fff;
+	padding: 0 0 20px 0;
 }
 header #middle article h1{
 	font-weight: 900;
@@ -67,8 +71,9 @@ header #middle article h1{
 	margin: 0;
 }
 header #middle nav{
-	width: 50%;
+	width: 50.5%;
 	float: left;
+	padding: 0 0 20px 50px;
 }
 header #middle nav ul li{
 	display: inline-block;
@@ -79,14 +84,18 @@ header #middle nav ul li{
 header #middle nav ul li a{
 	text-decoration: none;
 	color: #fff;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    font-family: "Lato",sans-serif;
 }
+
 /**********************/
 /*Start Header Bottom*/
 /********************/
 header #bottom{	
 	width: 100%;
     float: left;
-    font-family: "Open Sans",sans-serif
 }
 header #bottom article{
 	width: 100%;
@@ -142,6 +151,9 @@ header #bottom article + article a strong{
 	font-weight: 900;
 	text-transform: uppercase; 
 }
+header #bottom article + article a:hover{
+	background-color: #46455a;
+} 
 header #bottom div{
 	width: 125px;
 	margin: 0 auto;
@@ -384,8 +396,7 @@ footer #bottom article #border a{
 	font-size: 16px;
 	font-style: italic;
 	text-decoration: none;
-	text-align: center;	
-	
+	text-align: center;		
 }
 footer #bottom article #border a strong{
 	text-decoration: none;
@@ -395,4 +406,6 @@ footer #bottom article #border a strong{
 	font-weight: 900;
 	text-transform: uppercase; 
 } 
-
+footer #bottom article #border a:hover{
+	background-color: #46455a;
+}
