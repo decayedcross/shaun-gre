@@ -1,0 +1,35 @@
+html, body{
+	padding: 0;
+	margin: 0;
+}
+
+.wrap{
+	width: 1240px;
+	margin: 0 auto;
+	padding: 0;
+}
+header{
+	background-image: radial-gradient(circle, #3B3A53, #1B151F);
+	width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    height: 300px;
+    float: left;
+}
+/*******************/
+/*Start Header Top*/
+/*****************/
+header #top{
+	width: 100%;
+	float: left;
+	text-align: right;
+	font-family: "Lato",sans-serif;
+	font-weight: 700;
+}
+header #top a{
+	text-decoration: none;
+	color: #A3A2B8;
+}
+/**********************/
+/*Start Header Bottom*/
+/********************/
