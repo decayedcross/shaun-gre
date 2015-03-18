@@ -195,12 +195,13 @@ main #top figure figcaption span a{
 	text-transform: none;
 	font-weight: normal;
 }
-main #top #test{
+/*class for a href border*/
+.a-border{
 	width: 100%;
 	float: left;
 	text-align: center;
 }
-main #top #test a{
+.a-border a{
 	font-family: "Open Sans",sans-serif;
 	color: #A3A2B8;
 	display: inline-block;
@@ -213,13 +214,15 @@ main #top #test a{
 	text-decoration: none;
 	text-align: center;
 }
-main #top #test a strong{
+.a-border a strong{
 	text-decoration: none;
 	color: #3B3A53;	
 	font-size: 26px;
 	font-weight: 900;
 	text-transform: uppercase;
 }
+/*class for a href border*/
+
 /********************/
 /*Start Main Bottom*/
 /******************/
@@ -228,4 +231,44 @@ main #bottom{
 	float: left;
 	background-color: #f5f5f5;
 }
-main #bottom
+main #bottom h2{
+	text-align: center;
+	font-size: 30px;
+	font-weight: 700;
+	text-align: center;
+	color: #3B3A53;
+	text-transform: uppercase;
+	font-family: "Lato",sans-serif;	
+}
+main #bottom figure{
+	width: 49%;
+	float: left;
+	margin: 0 5px 0 0;
+}
+main #bottom figure figcaption{
+	width: 49%;
+	float: left;
+}
+main #bottom figure img{
+	width: 49%;
+	float: left;
+	margin: 0 5px 0 0px;
+}
+main #bottom figure figcaption span{
+	font-size: 12px;
+	color: #A3A2B8;
+	font-weight: 900;
+}
+main #bottom figure figcaption h3{
+	color: #000;
+	margin: 0px;
+	padding: 0px;
+	font-size: 24px;
+	font-weight: 900;
+}
+main #bottom figure figcaption p{
+	color: #000;
+	text-align: left;
+	font-family: "Open Sans",sans-serif;
+}
+
