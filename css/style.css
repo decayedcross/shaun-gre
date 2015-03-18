@@ -1,6 +1,6 @@
-html, body{
+html,body{
 	padding: 0;
-	margin: 0;
+	margin: 0 ;
 }
 
 .wrap{
@@ -13,8 +13,9 @@ header{
 	width: 100%;
     padding: 0;
     margin: 0 auto;
-    height: 300px;
+    height: 500px;
     float: left;
+    font-family: "Lato",sans-serif;
 }
 /*******************/
 /*Start Header Top*/
@@ -28,8 +29,40 @@ header #top{
 }
 header #top a{
 	text-decoration: none;
-	color: #A3A2B8;
+	color: #A3A2B8;	
 }
 /**********************/
 /*Start Header Bottom*/
 /********************/
+header #middle article{
+	width: 50%; 
+	float: left;
+	color: #fff;
+}
+header #middle article h1{
+	font-weight: 900;
+	font-size: 60px;
+	margin: 0;
+}
+header #middle nav{
+	width: 50%;
+	float: left;
+}
+header #middle nav ul li{
+	display: inline-block;
+	width: 25%;
+	float: left;
+	text-align: center;
+}
+header #middle nav ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+/**********************/
+/*Start Header Bottom*/
+/********************/
+header #bottom{	
+	width: 100%;
+    float: left;
+    font-family: "Lato",sans-serif;
+}
