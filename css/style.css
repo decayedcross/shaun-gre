@@ -132,6 +132,7 @@ header #bottom article + article span{
 	margin: 0 auto;
 	font-weight: 700;
 	font-size: 20px;
+	font-style: normal;
 }
 header #bottom article + article a strong{
 	text-decoration: none;
@@ -309,10 +310,10 @@ footer #bottom{
     float: left;
 }
 footer #bottom article{
-	width: 30.1%;
+	width: 28.495%;
 	float: left;
 	color: #fff;
-	padding: 20px;
+	padding: 20px 40px 20px 20px;
 	text-align: left;
 }
 footer #bottom article h2{
@@ -332,10 +333,11 @@ footer #bottom article ul{
 footer #bottom article nav ul li{
 	list-style: none;
 	font-weight: 900;
+	font-family: "Open Sans",sans-serif;
 }
 footer #bottom article a{
 	text-decoration: none;
-	color: #fff;
+	color: #fff;	
 }
 footer #bottom article ul li{
 	list-style: none;
@@ -344,4 +346,46 @@ footer #bottom article + article + article p{
 	margin: 0 0 20px 0;
 	font-style: italic;
 	color: #A3A2B8;
+}
+footer #bottom article + article + article ul li{
+	color: #A3A2B8;
+	font-family: "Open Sans",sans-serif;
+	font-weight: normal;
+	font-style: italic;
+}
+footer #bottom article + article + article ul li a{
+	color: #fff;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+}
+footer #bottom article + article + article ul li span{
+	color: #fff;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+}
+footer #bottom article #border{
+	display: inline-block;
+	border: 2px solid #FFF;
+	padding: 10px;
+	border-radius: 5px;
+	color: #A3A2B8;
+	font-size: 20px;
+	font-style: italic;
+	text-decoration: none;
+}
+footer #bottom article #border a{
+	color: #A3A2B8;
+	display: inline;
+	width: 10%;
+	text-align: center;
+	margin: 0 auto;
+	font-weight: 700;
+	font-size: 20px;
+	font-style: normal;
+}
+footer #bottom div article #border a strong{
+	text-decoration: none;
+	color: #fff;	
 }
