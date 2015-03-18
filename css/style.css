@@ -150,3 +150,45 @@ header #bottom div a{
 	float: left;
 	color: #fff;
 }
+/*****************/
+/*Start main Top*/
+/***************/
+main #top article{
+	width: 100%; 
+	float: 
+}
+main #top article h2{
+	text-align: center;
+	color: #3B3A53;
+	font-size: 30px;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+main #top article figure{
+	width: 33%;
+	float: left;
+	margin: 0 0 0 0;
+}
+main #top article figure a img{
+	width: 374px;
+	height: 250px;
+}
+main #top article figure figcaption{	
+	width: 100%;
+	float: left;
+}
+main #top article figure figcaption a{
+	text-decoration: none;
+	width: 100%;
+	float: left;
+	color: #3B3A53;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+main #top article figure figcaption a span{
+	width: 100%;
+	float: left;
+	color: #BB2F0E;
+	font-size: 14px;	
+	text-transform: none;
+}
