@@ -8,27 +8,31 @@ html,body{
 	padding: 0;
 }
 @font-face {
-font-family: 'FontAwesome';
-src: url('fonts/fontawesome-webfont.eot?v=4.3.0');
-src: url('fonts/fontawesome-webfont.eot?#iefix&v=4.3.0') format('embedded-opentype'), url('fonts/fontawesome-webfont.woff2?v=4.3.0') format('woff2'), url('fonts/fontawesome-webfont.woff?v=4.3.0') format('woff'), url('fonts/fontawesome-webfont.ttf?v=4.3.0') format('truetype'), url('fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');
-font-weight: normal;
-font-style: normal;
+	font-family: 'FontAwesome';
+	src: url('../fonts/fontawesome-webfont.eot?v=4.3.0');
+	src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.3.0') format('embedded-opentype'), 
+	url('../fonts/fontawesome-webfont.woff2?v=4.3.0') format('woff2'), 
+	url('../fonts/fontawesome-webfont.woff?v=4.3.0') format('woff'), 
+	url('../fonts/fontawesome-webfont.ttf?v=4.3.0') format('truetype'), 
+	url('../fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 .fa {
-display: inline-block;
-font-family: FontAwesome;
-font-style: normal;
-font-weight: normal;
-line-height: 1;
-font-size-adjust: none;
-font-stretch: normal;
-font-feature-settings: normal;
-font-language-override: normal;
-font-kerning: auto;
-font-synthesis: weight style;
-font-variant: normal;
-font-size: inherit;
-text-rendering: auto;
+	display: inline-block;
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	font-size-adjust: none;
+	font-stretch: normal;
+	font-feature-settings: normal;
+	font-language-override: normal;
+	font-kerning: auto;
+	font-synthesis: weight style;
+	font-variant: normal;
+	font-size: inherit;
+	text-rendering: auto;
 }
 /*******************/
 /*Start Header Top*/
@@ -37,7 +41,6 @@ header{
 	background-image: radial-gradient(circle, #3B3A53, #1B151F);
 	width: 100%;
     padding: 0;
-    margin: 0 auto;
     height: 500px;
     float: left;
 }
@@ -45,7 +48,7 @@ header #top{
 	width: 100%;
 	float: left;
 	text-align: right;
-	padding: 10px 0 0 0;
+	padding: 8px 0 0 0;
 	font-size: 16px;
     font-weight: 700;	
     font-family: "Lato",sans-serif;
@@ -53,41 +56,43 @@ header #top{
 header #top a{
 	text-decoration: none;
 	color: #A3A2B8;	
-	padding: 0 20px 0 0;
-
+	padding: 0 25px 0 0;
 }
 /**********************/
 /*Start Header Bottom*/
 /********************/
+header #middle{
+	width: 100%; 
+	float: left;
+}
 header #middle article{
-	width: 45%; 
+	width: 50%; 
 	float: left;
 	color: #fff;
-	padding: 0 0 20px 0;
 }
-header #middle article h1{
+header #middle article p{
 	font-weight: 900;
 	font-size: 60px;
-	margin: 0;
+	margin: -5px 0 10px 0 ;
+	font-family: "Lato",sans-serif;
 }
 header #middle nav{
-	width: 50.5%;
+	width: 50%;
 	float: left;
-	padding: 0 0 20px 50px;
 }
-header #middle nav ul li{
-	display: inline-block;
+header #middle nav ul li{	
+	display: inline;
 	width: 25%;
 	float: left;
 	text-align: center;
+	font-family: "Lato",sans-serif;
 }
 header #middle nav ul li a{
 	text-decoration: none;
 	color: #fff;
     font-size: 30px;
     font-weight: 900;
-    text-align: center;
-    font-family: "Lato",sans-serif;
+    text-align: center;	
 }
 
 /**********************/
@@ -100,28 +105,32 @@ header #bottom{
 header #bottom article{
 	width: 100%;
 	float: left;
+	margin: 60px 0 0 0;
 }
 header #bottom article h1{
 	width: 700px;
 	font-size: 60px;
 	color: #FFF;
 	text-align: center;
-	font-weight: 900;
+	font-weight: bold;
 	margin: 0 auto;
+	line-height: 1;
 }
 header #bottom article p{
-	width: 100%;
 	font-size: 20px;
-    margin: 0px auto 50px;
-    padding: 0px;
-    color: #A3A2B8;
-    text-align: center;
-    font-weight: 700;
+	margin: 0px auto 50px;
+	padding: 0px;
+	color: #A3A2B8;
+	text-align: center;
+	font-weight: 700;
+	max-width: 700px;
+	font-family: "Lato",sans-serif;
 }
 header #bottom article + article{
 	width: 100%; 
 	float: left;
 	text-align: center;
+	margin: 0 0 40px 0;
 }
 header #bottom article + article a{
 	display: inline-block;
@@ -134,14 +143,15 @@ header #bottom article + article a{
 	text-decoration: none;
 }
 header #bottom article + article span{
-	color: #A3A2B8;
+	color: #fff;
 	display: inline;
 	width: 10%;
 	text-align: center;
 	margin: 0 auto;
-	font-weight: 700;
-	font-size: 20px;
+	font-weight: 900;
+	font-size: 26px;
 	font-style: normal;
+	margin: 0 10px 0 10px;
 }
 header #bottom article + article a strong{
 	text-decoration: none;
@@ -157,7 +167,7 @@ header #bottom article + article a:hover{
 header #bottom div{
 	width: 125px;
 	margin: 0 auto;
-	font-size: 25px;
+	font-size: 25px;	
 }
 header #bottom div a{
 	font-family: "fontawesome";
@@ -165,11 +175,27 @@ header #bottom div a{
 	margin: 0 auto;
 	width: 25%;
 	float: left;
-	color: #fff;
+	color: #A3A2B8;	
+}
+.fa-twitter-square:before {
+content: "\f081";
+}
+.fa-facebook-square:before {
+content: "\f082";
+}
+.fa-instagram-square:before {
+content: "\f16d";
+}
+.fa-linkedin-square:before {
+content: "\f08c";
 }
 /*****************/
 /*Start Main Top*/
 /***************/
+main #top{
+	width: 100%;
+	float: left;
+}
 main #top article{
 	width: 100%; 
 	float: left; 
@@ -180,11 +206,12 @@ main #top article h2{
 	font-size: 30px;
 	font-weight: 900;
 	text-transform: uppercase;
+	margin: 30px 0 50px 0;
 }
 main #top figure{
-	width: 33%;
+	width: 33.33%;
 	float: left;
-	margin: 0 0 0 0;
+	margin: 0 0 35px 0;
 }
 main #top figure a img{
 	width: 374px;
@@ -217,6 +244,7 @@ main #top figure figcaption span a{
 	width: 100%;
 	float: left;
 	text-align: center;
+	margin: 30px 0 30px 0;
 }
 .a-border a{
 	font-family: "Open Sans",sans-serif;
@@ -256,11 +284,12 @@ main #bottom h2{
 	color: #3B3A53;
 	text-transform: uppercase;
 	font-family: "Lato",sans-serif;	
+	margin: 32px 0 45px 0
 }
 main #bottom figure{
 	width: 49%;
 	float: left;
-	margin: 0 5px 0 0;
+	margin: 0 5px 10px 0;
 }
 main #bottom figure figcaption{
 	width: 49%;
@@ -306,13 +335,23 @@ footer #top figure a img{
 	width: 191px;
 	height: 190px;
 }
-footer #top figure .instagram{
+footer #top figure a img a{
+	width: 191px;
+	height: 190px;
+	text-decoration: none;
+}
+footer #top figure div{
   position: absolute;  
   top: 5px;
   left: 10px;
 }
-footer #top figure div .fa fa-instagram{
+footer #top figure div .fa-instagram{
   margin: 5px 0 5px 0;
+  color: #fff;
+
+}
+.fa-instagram:before {
+content: "\f16d";
 }
 /**********************/
 /*Start Footer Bottom*/
@@ -321,7 +360,6 @@ footer #bottom{
 	background-image: radial-gradient(circle, #3B3A53, #1B151F);
 	width: 100%;
     padding: 0;
-    margin: 0 auto;
     height: 500px;
     float: left;
 }
