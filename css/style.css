@@ -329,7 +329,8 @@ footer #top figure{
 	width: 10%;
 	float: left;
 	margin: 0;
-  	position: relative;  	
+  	position: relative; 
+  	height: 190px; 	
 }
 footer #top figure a img{
 	width: 191px;
