@@ -262,7 +262,7 @@ main #bottom figure figcaption{
 main #bottom figure img{
 	width: 49%;
 	float: left;
-	margin: 0 5px 0 0px;
+	margin: 0 10px 0 0px;
 }
 main #bottom figure figcaption span{
 	font-size: 12px;
@@ -281,6 +281,7 @@ main #bottom figure figcaption p{
 	text-align: left;
 	font-family: "open-sans";
 	font-size: 14px;
+	padding: 0 50px 0 0;
 }
 /*******************/
 /*Start Footer Top*/
@@ -343,16 +344,18 @@ footer #bottom article h2{
 	margin: 0;
 }
 footer #bottom article p{
-	font-family: "Open Sans",sans-serif;
+	font-family: "open-sans",sans-serif;
 	font-size: 16px;
+}
+footer #bottom article span{
+	margin: 5px 0 30px 0;
 }
 footer #bottom article ul{
 	padding: 0;
 }
 footer #bottom article nav ul li{
-	list-style: none;
-	font-weight: 900;
-	font-family: "Open Sans",sans-serif;
+	list-style: none;	
+	font-family: "open-sans-bold",sans-serif;
 }
 footer #bottom article a{
 	text-decoration: none;
@@ -366,11 +369,21 @@ footer #bottom article + article + article p{
 	font-style: italic;
 	color: #A3A2B8;
 }
+footer #bottom article + article div{
+	margin: 15px 0 0 0 ;
+}
+footer #bottom article + article div a{
+	text-decoration: none;
+	color: #A3A2B8;	
+	font-size: 25px;
+	margin: 0 1px 0 1px;
+}
 footer #bottom article + article + article ul li{
 	color: #A3A2B8;
-	font-family: "Open Sans",sans-serif;
+	font-family: "open-sans",sans-serif;
 	font-weight: normal;
 	font-style: italic;
+	margin: 2px 0 0 0;
 }
 footer #bottom article + article + article ul li a{
 	color: #fff;
@@ -389,7 +402,7 @@ footer #bottom article #border{
 	float: left;
 }
 footer #bottom article #border a{
-	font-family: "Open Sans",sans-serif;
+	font-family: "open-sans",sans-serif;
 	color: #A3A2B8;
 	display: inline-block;
 	border: 2px solid;
