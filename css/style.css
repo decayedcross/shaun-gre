@@ -39,7 +39,7 @@ header #middle{
 	float: left;
 }
 header #middle article{
-	width: 65%; 
+	width: 61%; 
 	float: left;
 	color: #fff;
 	font-family: "lato";
@@ -50,9 +50,13 @@ header #middle article p{
 	margin: -5px 0 10px 0 ;
 }
 header #middle nav{
-	width: 28.5%;
+	width: 30.5%;
 	float: left;
 	font-family: "lato";
+}
+header #middle nav ul{
+	width: 100%;
+	float: left;
 }
 header #middle nav ul li{	
 	display: inline;
@@ -70,11 +74,13 @@ header #middle nav ul li a{
     text-align: center;	
 }
 header #middle nav ul li + li + li a{
-	margin: 0 0 0 70px; 
+	margin: 0 10px 0 70px; 
 }
 header #middle nav ul li + li a{
 	margin: 0 0 0 15px; 
 }
+
+
 /**********************/
 /*Start Header Bottom*/
 /********************/
