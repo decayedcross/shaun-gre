@@ -24,8 +24,7 @@ header #top{
 	text-align: right;
 	padding: 8px 0 0 0;
 	font-size: 16px;
-    font-weight: 700;	
-    font-family: "Lato",sans-serif;
+    font-family: "lato-bold",sans-serif;
 }
 header #top a{
 	text-decoration: none;
@@ -43,7 +42,7 @@ header #middle article{
 	width: 50%; 
 	float: left;
 	color: #fff;
-	font-family: "Lato",sans-serif;
+	font-family: "lato";
 }
 header #middle article p{
 	font-weight: 900;
@@ -53,7 +52,7 @@ header #middle article p{
 header #middle nav{
 	width: 50%;
 	float: left;
-	font-family: "Lato",sans-serif;
+	font-family: "lato";
 }
 header #middle nav ul li{	
 	display: inline;
@@ -80,7 +79,7 @@ header #bottom article{
 	width: 100%;
 	float: left;
 	margin: 60px 0 0 0;
-	font-family: 'Lato-bold' sans-serif;
+	font-family: 'lato-extrabold',sans-serif;
 }
 header #bottom article h1{
 	width: 700px;
@@ -103,8 +102,7 @@ header #bottom article + article{
 	width: 100%; 
 	float: left;
 	text-align: center;
-	margin: 0 0 40px 0;
-	font-family: "Open Sans", sans-serif;
+	margin: 0 0 40px 0;	
 }
 header #bottom article + article a{
 	display: inline-block;
@@ -113,19 +111,19 @@ header #bottom article + article a{
 	border-radius: 5px;
 	color: #A3A2B8;
 	font-size: 20px;
-	font-style: italic;
 	text-decoration: none;
+	font-family: "open-sans-italic",sans-serif;
 }
 header #bottom article + article span{
 	color: #fff;
 	display: inline;
 	width: 10%;
 	text-align: center;
-	margin: 0 auto;
-	font-weight: 900;
+	margin: 0 auto;	
 	font-size: 26px;
 	font-style: normal;
-	margin: 0 10px 0 10px;
+	margin: 0 10px 0 10px;	
+	font-family: "open-sans-bold",sans-serif;
 }
 header #bottom article + article a strong{
 	text-decoration: none;
@@ -134,35 +132,24 @@ header #bottom article + article a strong{
 	font-size: 26px;
 	font-weight: 900;
 	text-transform: uppercase; 
+	font-family: "open-sans-bold",sans-serif;
 }
 header #bottom article + article a:hover{
 	background-color: #46455a;
 } 
 header #bottom div{
-	width: 125px;
-	margin: 0 auto;
-	font-size: 25px;	
+	width: 100%;
+	float: left;
+	text-align: center;
+
 }
 header #bottom div a{
-	font-family: "fontawesome";
 	text-decoration: none;
-	margin: 0 auto;
-	width: 25%;
-	float: left;
 	color: #A3A2B8;	
+	font-size: 25px;
+	margin: 0 1px 0 1px;
 }
-.fa-twitter-square:before {
-content: "\f081";
-}
-.fa-facebook-square:before {
-content: "\f082";
-}
-.fa-instagram-square:before {
-content: "\f16d";
-}
-.fa-linkedin-square:before {
-content: "\f08c";
-}
+
 /*****************/
 /*Start Main Top*/
 /***************/
@@ -178,9 +165,9 @@ main #top article h2{
 	text-align: center;
 	color: #3B3A53;
 	font-size: 30px;
-	font-weight: 900;
 	text-transform: uppercase;
 	margin: 30px 0 50px 0;
+	font-family: "open-sans-extrabold",sans-serif;
 }
 main #top figure{
 	width: 33.33%;
@@ -200,28 +187,28 @@ main #top figure figcaption a{
 	color: #3B3A53;
 	font-size: 16px;
 	text-transform: uppercase;
-	font-weight: bold;
+	font-family: "lato-bold", sans-serif;
 }
 main #top figure figcaption span{
 	float: left;
-	width: 100%;	
+	width: 100%;
 }
 main #top figure figcaption span a{
 	text-decoration: none;
 	color: #BB2F0E;
-	font-size: 14px;	
+	font-size: 13px;	
 	text-transform: none;
-	font-weight: normal;
+	font-family: "lato-bold"
+		
 }
 /*class for a href border*/
 .a-border{
 	width: 100%;
 	float: left;
 	text-align: center;
-	margin: 30px 0 30px 0;
+	margin: 30px 0 30px 0;	
 }
-.a-border a{
-	font-family: "Open Sans",sans-serif;
+.a-border a{	
 	color: #A3A2B8;
 	display: inline-block;
 	border: 2px solid;
@@ -229,16 +216,19 @@ main #top figure figcaption span a{
 	padding: 10px;
 	border-radius: 5px;
 	font-size: 20px;
-	font-style: italic;
 	text-decoration: none;
 	text-align: center;
+}
+.a-border a span{
+	font-family: "open-sans-italic",sans-serif;	
+	margin: 0;
 }
 .a-border a strong{
 	text-decoration: none;
 	color: #3B3A53;	
-	font-size: 26px;
-	font-weight: 900;
+	font-size: 26px;	
 	text-transform: uppercase;
+	font-family: "open-sans-extrabold",sans-serif;	
 }
 /*class for a href border*/
 
@@ -277,21 +267,21 @@ main #bottom figure img{
 main #bottom figure figcaption span{
 	font-size: 12px;
 	color: #A3A2B8;
-	font-weight: 900;
+	font-family: "open-sans-bold"	
 }
 main #bottom figure figcaption h3{
 	color: #000;
 	margin: 0px;
 	padding: 0px;
 	font-size: 24px;
-	font-weight: 900;
+	font-family: "lato"	
 }
 main #bottom figure figcaption p{
 	color: #000;
 	text-align: left;
-	font-family: "Open Sans",sans-serif;
+	font-family: "open-sans";
+	font-size: 14px;
 }
-
 /*******************/
 /*Start Footer Top*/
 /*****************/
